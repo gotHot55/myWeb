@@ -1,0 +1,5 @@
+ssh-keygen -t rsa -C "595105385@qq.com"
+
+git config --global user.name "gotHot55"
+
+git config --global user.email "595105385@qq.com"

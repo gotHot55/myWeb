@@ -7,8 +7,9 @@
 <style type="text/css">
 	form{
 		background-color:#6FF;
-		text-align:center;
+		margin:20px auto;
 		width:700px;
+		
 		}
 	input{
 		width:200px;
@@ -27,7 +28,7 @@
             </tr>
         	<tr>
             	<td>真实姓名：</td>
-                <td><input type="text" placeholder="例如：王明"></td>
+                <td><input type="text" placeholder="例如：王明" pattern="" required="required"></td>
                  <td align="left">（必须填写，只能输入汉字）</td>
             </tr>
             <tr>
@@ -67,13 +68,9 @@
                 <td align="left">（请选择网址）</td>
             </tr>
              
-             <tr>
-            	<td>幸运颜色：</td>
-                 <td align="left"><input type="color" class="color" value="#f13cef"></td>
-                <td align="left">(请选择你喜欢的颜色)</td>
-            </tr>
              
         </table>
+        <p>幸运颜色：<input type="color" class="color" value="#f13cef">(请选择你喜欢的颜色)</p>
         	<input type="submit" value="提交" style="width:45px">
             <input type="reset" value="重置" style="width:45px">
     </form>
