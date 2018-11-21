@@ -1,0 +1,16 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;}
+.all{
+	width:960px;
+	height:800px;
+	margin:20px auto;}
+.head img{
+	border-right:dashed 1px #999999;
+	padding-right:10px;}
+.head span{
+	font-size:24px;
+	padding-left:10px;
+	line-height:37px;
+	color:#999}
