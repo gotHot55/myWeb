@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style type="text/css">
+	form{
+		background-color:#6FF;
+		text-align:center;
+		width:700px;
+		}
+	input{
+		width:200px;
+		height:25px;}
+.color{
+	width:100px;}
+</style>
+<body>
+	<form>
+    	<h2 align="center">学生信息登记表</h2>
+    	<table>
+        	<tr>
+            	<td>用户登录名：</td>
+                <td><input type="text" readonly="readonly" placeholder="myEmail@163.com" disabled="disabled"></td>
+                <td align="left">（不能修改只能查看）</td>
+            </tr>
+        	<tr>
+            	<td>真实姓名：</td>
+                <td><input type="text" placeholder="例如：王明"></td>
+                 <td align="left">（必须填写，只能输入汉字）</td>
+            </tr>
+            <tr>
+            	<td>真实年龄：</td>
+                <td><input type="number" min="16" max="100" value="24"></td>
+                 <td align="left">（必须填写）</td>
+            </tr>
+            <tr>
+            	<td>出生日期：</td>
+                <td><input type="date"></td>
+                 <td align="left">(必须填写)</td>
+            </tr>
+            <tr>
+            	<td>电子邮箱：</td>
+                <td><input type="email" placeholder="123456@126.com"></td>
+                 <td align="left">(必须填写)</td>
+            </tr>
+            <tr>
+            	<td>身份证号：</td>
+                <td><input type="text"></td>
+                 <td align="left">(必须填写，能够以数字、字母x结尾的短身份证号)</td>
+            </tr>
+            <tr>
+            	<td>手机号码：</td>
+                <td><input type="tel"></td>
+                 <td align="left">（必须填写）</td>
+            </tr>
+            <tr>
+            	<td>个人主页：</td>
+              <td><input type="url" placeholder="http://itcast.cn" list="http">
+                	<datalist id="http">
+                    	<option>http://www.baidu.com</option>
+                        <option>http://www.baidu.com</option>
+                        <option>http://www.baidu.com</option>
+                    </datalist>
+              </td>
+                <td align="left">（请选择网址）</td>
+            </tr>
+             
+             <tr>
+            	<td>幸运颜色：</td>
+                 <td align="left"><input type="color" class="color" value="#f13cef"></td>
+                <td align="left">(请选择你喜欢的颜色)</td>
+            </tr>
+             
+        </table>
+        	<input type="submit" value="提交" style="width:45px">
+            <input type="reset" value="重置" style="width:45px">
+    </form>
+
+</body>
+</html>
